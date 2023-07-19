@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>YT Shorts URL Converter</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="icon" href="favicon.png">
+</head>
+<body>
+<div id="content">
+	<svg id="logo" viewBox="0 0 81 85">
+		<path d="M 34.013933,11.0366731 C 28.192738,14.095027 22.371544,17.153382 16.550349,20.211736 8.584872,24.362874 5.526529,34.115264 9.71889,41.998264 12.5367,47.297134 17.918044,50.396674 23.560521,50.602914 21.377296,51.750654 19.194071,52.898394 17.010846,54.046134 9.04534,58.197274 5.986998,67.949634 10.179361,75.832644 14.371722,83.715664 24.23407,86.739672 32.199549,82.588544 43.841926,76.471824 55.484302,70.355104 67.126679,64.238384 75.099049,60.087264 78.150539,50.334884 73.958169,42.451854 71.140359,37.152984 65.758998,34.053464 60.116518,33.847234 62.299748,32.699494 64.482979,31.551754 66.666209,30.404014 74.631689,26.252864 77.690059,16.500486 73.497699,8.617466 69.305339,0.73446 59.442998,-2.289507 51.477518,1.86161 45.656323,4.9199643 39.835128,7.9783187 34.013933,11.036673 Z M 32.625652,29.228744 53.766128,42.280054 32.625652,55.269484 Z"></path>
+	</svg>
+	<div class="bar-container">
+		<p>Enter a YouTube Shorts URL</p>
+		<div class="search-container">
+			<label for="search"></label><input id="search" type="text" placeholder="https://www.youtube.com/shorts/...">
+			<button id="search-icon" title="the &quot;Search&quot; button">
+				<svg height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+					<circle
+							style="fill:none;stroke:#000000;"
+							cx="10"
+							cy="10"
+							r="6.5"/>
+					<path
+							style="fill:none;stroke:#000000;"
+							d="m 20.5,20.5 -6,-6"
+					/>
+				</svg>
+			</button>
+		</div>
+		<p style="text-align: right">to watch it as a normal video</p>
+		<div class="error-container">
+			<p id="error-message">&nbsp</p>
+		</div>
+	</div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
